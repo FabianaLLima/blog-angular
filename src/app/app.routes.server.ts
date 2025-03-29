@@ -1,8 +1,10 @@
-import { RenderMode, ServerRoute } from '@angular/ssr';
+import { Component } from '@angular/core';
 
-export const serverRoutes: ServerRoute[] = [
-  {
-    path: '**',
-    renderMode: RenderMode.Prerender
-  }
-];
+@Component({
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.css']
+})
+export class AppComponent {
+  title = 'angular-blog';
+}
