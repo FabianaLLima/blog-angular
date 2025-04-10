@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, OnInit} from '@angular/core';
+import { SmallCardComponent } from "../../components/small-card/small-card.component";
+import { MenuTitleComponent } from "../../components/menu-title/menu-title.component";
 
 @Component({
   selector: 'app-home',
-  imports: [],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css'],
+  imports: [SmallCardComponent, MenuTitleComponent],
 })
-export class HomeComponent {
+export class homeComponent implements OnInit {
+
+  constructor() {}
 
 }
