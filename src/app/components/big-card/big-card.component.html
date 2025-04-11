@@ -1,27 +1,23 @@
 <div class="container__big-card">
-  <a href="">
 
-    <div class="big-card__photo">
-      <img 
-        src="https://www.unfe.org/wp-content/uploads/2019/04/SM-placeholder.png" 
-        alt="" 
-        height="200px" 
-        srcset=""
-      />
-    </div>
-  
-    <div class="big-card__title">
-      <h1><a href = "#">Saiu anova versão do Angular</a></h1>
-      </div>
-
-      </div class="big-card__description">
-         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Pellentesque interdum element volutpat. Fusc dictum justo
-            metus tristique, eget accumsan sapien mattis. Etiam egestas
-            lectus non ante laoreet rutrum.
-         </p>
-       </div>
-    </a>
+  <div class="big-card__photo">
+    <img
+      src="{{ photoCover }}"
+      alt=""
+      height="200px"
+      srcset=""
+    >
   </div>
-  
+
+  <div class="big-card__title">
+    <h1><a href = "#">{{ cardTitle }}</a></h1>
+  </div>
+
+  <div class="big-card__description">
+    <p>
+      <a href="#">
+      </a>
+    </p>
+  </div>
+
+</div>
