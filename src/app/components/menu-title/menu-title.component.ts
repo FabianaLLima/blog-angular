@@ -9,5 +9,8 @@ import { Component } from '@angular/core';
    './menu-title.responsive.component.css']
 })
 export class MenuTitleComponent {
+  constructor() { }
 
+  ngOnInit(): void {
+  }
 }
